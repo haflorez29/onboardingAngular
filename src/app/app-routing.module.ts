@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { WelcomeContainerComponent } from './welcome/components/welcome-container/welcome-container.component';
-import { WelcomeFormComponent } from './welcome/components/welcome-form/welcome-form.component';
+import { WelcomeFormComponent } from './onboarding/components/welcome-form/welcome-form.component';
+import { WelcomeComponent } from './onboarding/components/welcome/welcome.component';
 
-const routes: Routes = [{ path: '', component: WelcomeContainerComponent }];
+const routes: Routes = [{ path: '', component: WelcomeComponent }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

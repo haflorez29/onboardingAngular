@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { UserManagerServiceService } from '../../services/user-manager-service.service';
 
 @Component({
   selector: 'app-welcome-form',
@@ -8,12 +10,16 @@ import { Component, OnInit } from '@angular/core';
 export class WelcomeFormComponent implements OnInit {
   nameUser = '';
 
-  constructor() {}
+  constructor(
+    private router: Router,
+    private userManagerServiceService: UserManagerServiceService
+  ) {}
 
   ngOnInit(): void {}
 
-  saveUser() {
-    console.log(this.nameUser);
+  saveUser(): void {
+    this.userManagerServiceService.addUser(this.nameUser);
     this.nameUser = '';
+    this.router.navigate(['/imagine']);
   }
 }

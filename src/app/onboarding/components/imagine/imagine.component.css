@@ -1,4 +1,16 @@
 .imagine {
   background-color: black;
+  background-image: url("../../../../assets/ResidentBackground.JPG");
   height: 100vh;
+  font-size: x-large;
+}
+
+a {
+  color: yellow;
+}
+
+a:hover {
+  color: #ffc107;
+  text-decoration: none;
+  cursor: pointer;
 }

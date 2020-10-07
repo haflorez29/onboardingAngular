@@ -1,0 +1,120 @@
+<div class="accordion w-100" id="accordionExample">
+  <div class="card">
+    <div class="card-header bg-warning" id="headingOne">
+      <h2 class="mb-0">
+        <button
+          class="text-center btn btn-block text-light font-weight-bold"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseOne"
+          aria-expanded="true"
+          aria-controls="collapseOne"
+        >
+          SENIOR MGMT
+        </button>
+      </h2>
+    </div>
+
+    <div
+      id="collapseOne"
+      class="collapse"
+      aria-labelledby="headingOne"
+      data-parent="#accordionExample"
+    >
+      <div class="card-body">
+        <app-mgmt></app-mgmt>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header expmgm" id="headingTwo">
+      <h2 class="mb-0">
+        <button
+          class="text-center btn btn-block collapsed text-light font-weight-bold"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseTwo"
+          aria-expanded="false"
+          aria-controls="collapseTwo"
+        >
+          EXPERT AND MGM
+        </button>
+      </h2>
+    </div>
+    <div
+      id="collapseTwo"
+      class="collapse"
+      aria-labelledby="headingTwo"
+      data-parent="#accordionExample"
+    >
+      <div class="card-body d-flex justify-content-center">
+        <app-card-path
+          [seniorityLevels]="expert"
+          [border]="'3px dashed rgb(108, 14, 151)'"
+        ></app-card-path>
+        <app-card-path
+          [seniorityLevels]="mgm"
+          [border]="'3px dashed rgb(216, 32, 103)'"
+        ></app-card-path>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header bg-info" id="headingThree">
+      <h2 class="mb-0">
+        <button
+          class="text-center btn btn-block collapsed text-light font-weight-bold"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseThree"
+          aria-expanded="false"
+          aria-controls="collapseThree"
+        >
+          SENIOR
+        </button>
+      </h2>
+    </div>
+    <div
+      id="collapseThree"
+      class="collapse"
+      aria-labelledby="headingThree"
+      data-parent="#accordionExample"
+    >
+      <div class="card-body">
+        <app-card-path
+          [seniorityLevels]="senior"
+          [border]="'3px dashed #17a2b8'"
+        ></app-card-path>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header bg-success" id="headingFour">
+      <h2 class="mb-0">
+        <button
+          class="btn btn-block text-light font-weight-bold text-center"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseFour"
+          aria-expanded="true"
+          aria-controls="collapseOne"
+        >
+          INITIAL AND MID LEVEL
+        </button>
+      </h2>
+    </div>
+    <div
+      id="collapseFour"
+      class="collapse"
+      aria-labelledby="headingFour"
+      data-parent="#accordionExample"
+    >
+      <div class="card-body">
+        <app-card-path
+          [seniorityLevels]="initial"
+          [border]="'3px dashed #28a745'"
+        ></app-card-path>
+      </div>
+    </div>
+  </div>
+</div>

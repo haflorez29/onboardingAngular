@@ -1,0 +1,10 @@
+.seniormul {
+  border: 3px solid #ffc107;
+  border-style: dashed;
+  background-color: rgba(228, 233, 237, 1);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.list {
+  list-style: none;
+}

@@ -11,10 +11,14 @@
         />
       </div>
     </section>
-    <section class="col-12 col-md-6">
+    <section class="d-flex flex-column col-12 col-md-6">
       <div class="d-flex h-100 align-items-center">
         <app-range class="w-100"></app-range>
       </div>
+      <app-next-button
+        class="next-button"
+        [path]="'triforce'"
+      ></app-next-button>
     </section>
   </div>
 </div>

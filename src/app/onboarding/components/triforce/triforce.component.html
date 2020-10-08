@@ -1,7 +1,7 @@
 <div class="container-fluid bg-dark triforce">
-  <div class="text-warning p-4">
-    <h1 class="">The triforce</h1>
-    <hr class="bg-warning" />
+  <div class="title p-4">
+    <h1>The triforce</h1>
+    <hr />
     <p>The three aspects consist of the Studio, TDC and Accounts</p>
     <div class="d-flex">
       <p>You are here&nbsp;</p>
@@ -14,13 +14,14 @@
         </div>
       </section>
       <section class="col-12 col-md-6">
-        <div class="col-12 d-flex justify-content-center">
+        <div class="col-12 d-flex img-container justify-content-center">
           <img
             src="../../../../assets/Triforce.png"
             alt="avatar-image"
             class="avatar"
           />
         </div>
+        <app-button-next class="next-button" [path]="'fci3'"></app-button-next>
       </section>
     </div>
   </div>

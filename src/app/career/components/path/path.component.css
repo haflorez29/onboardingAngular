@@ -2,10 +2,18 @@
   height: auto;
 }
 
+.title {
+  color: #bfd732;
+}
+
 .avatar {
   height: 80vh;
 }
 
 .next-button {
   margin-top: 10px;
+}
+
+hr {
+  background-color: #bfd732;
 }

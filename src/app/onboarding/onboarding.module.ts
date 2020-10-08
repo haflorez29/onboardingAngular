@@ -6,7 +6,9 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
 import { ImagineComponent } from './components/imagine/imagine.component';
 import { TriforceComponent } from './components/triforce/triforce.component';
 import { TriforceTableComponent } from './components/triforce-table/triforce-table.component';
-import { NextButtonComponent } from './components/next-button/next-button.component';
+import { FciComponent } from './components/fci/fci.component';
+import { FciCategoryComponent } from './components/fci-category/fci-category.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -15,14 +17,10 @@ import { NextButtonComponent } from './components/next-button/next-button.compon
     ImagineComponent,
     TriforceComponent,
     TriforceTableComponent,
-    NextButtonComponent,
+    FciComponent,
+    FciCategoryComponent,
   ],
-  imports: [CommonModule, FormsModule],
-  exports: [
-    WelcomeComponent,
-    WelcomeFormComponent,
-    ImagineComponent,
-    NextButtonComponent,
-  ],
+  imports: [CommonModule, FormsModule, SharedModule],
+  exports: [WelcomeComponent, WelcomeFormComponent, ImagineComponent],
 })
 export class OnboardingModule {}

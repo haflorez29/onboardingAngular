@@ -1,6 +1,6 @@
 <div class="accordion w-100" id="accordionExample">
   <div class="card">
-    <div class="card-header" id="headingOne">
+    <div class="card-header exc" id="headingOne">
       <h2 class="mb-0">
         <button
           class="text-center btn btn-block text-light font-weight-bold"
@@ -10,7 +10,7 @@
           aria-expanded="true"
           aria-controls="collapseOne"
         >
-          SENIOR MGMT
+          Excellent in your work
         </button>
       </h2>
     </div>
@@ -22,12 +22,12 @@
       data-parent="#accordionExample"
     >
       <div class="card-body">
-        <app-mgmt></app-mgmt>
+        <app-card [levels]="excellent"></app-card>
       </div>
     </div>
   </div>
   <div class="card">
-    <div class="card-header expmgm" id="headingTwo">
+    <div class="card-header exc" id="headingTwo">
       <h2 class="mb-0">
         <button
           class="text-center btn btn-block collapsed text-light font-weight-bold"
@@ -37,7 +37,7 @@
           aria-expanded="false"
           aria-controls="collapseTwo"
         >
-          EXPERT AND MGM
+          Act Ethically
         </button>
       </h2>
     </div>
@@ -48,45 +48,13 @@
       data-parent="#accordionExample"
     >
       <div class="card-body d-flex justify-content-center">
-        <app-card
-          [levels]="expert"
-          [border]="'3px dashed rgb(108, 14, 151)'"
-        ></app-card>
-        <app-card
-          [levels]="mgm"
-          [border]="'3px dashed rgb(216, 32, 103)'"
-        ></app-card>
+        <app-card [levels]="act" class="w-100 h-100"></app-card>
       </div>
     </div>
   </div>
+
   <div class="card">
-    <div class="card-header" id="headingThree">
-      <h2 class="mb-0">
-        <button
-          class="text-center btn btn-block collapsed text-light font-weight-bold"
-          type="button"
-          data-toggle="collapse"
-          data-target="#collapseThree"
-          aria-expanded="false"
-          aria-controls="collapseThree"
-        >
-          SENIOR
-        </button>
-      </h2>
-    </div>
-    <div
-      id="collapseThree"
-      class="collapse"
-      aria-labelledby="headingThree"
-      data-parent="#accordionExample"
-    >
-      <div class="card-body">
-        <app-card [levels]="senior" [border]="'3px dashed #17a2b8'"></app-card>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingFour">
+    <div class="card-header cons" id="headingFour">
       <h2 class="mb-0">
         <button
           class="btn btn-block text-light font-weight-bold text-center"
@@ -96,7 +64,7 @@
           aria-expanded="true"
           aria-controls="collapseOne"
         >
-          INITIAL AND MID LEVEL
+          Constantly Innovate &amp; Think Big
         </button>
       </h2>
     </div>
@@ -107,7 +75,34 @@
       data-parent="#accordionExample"
     >
       <div class="card-body">
-        <app-card [levels]="initial" [border]="'3px dashed #28a745'"></app-card>
+        <app-card [levels]="constIn"></app-card>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header teamFun" id="headingSeven">
+      <h2 class="mb-0">
+        <button
+          class="btn btn-block text-light font-weight-bold text-center"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseSeven"
+          aria-expanded="true"
+          aria-controls="collapseOne"
+        >
+          Team Player &amp; Have Fun
+        </button>
+      </h2>
+    </div>
+    <div
+      id="collapseSeven"
+      class="collapse"
+      aria-labelledby="headingSeven"
+      data-parent="#accordionExample"
+    >
+      <div class="card-body">
+        <app-card [levels]="team"></app-card>
       </div>
     </div>
   </div>

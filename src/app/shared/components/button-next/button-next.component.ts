@@ -2,11 +2,11 @@ import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-next-button',
-  templateUrl: './next-button.component.html',
-  styleUrls: ['./next-button.component.css'],
+  selector: 'app-button-next',
+  templateUrl: './button-next.component.html',
+  styleUrls: ['./button-next.component.css'],
 })
-export class NextButtonComponent implements OnInit {
+export class ButtonNextComponent implements OnInit {
   @Input() path: string;
 
   constructor(private router: Router) {}

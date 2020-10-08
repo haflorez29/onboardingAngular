@@ -1,0 +1,21 @@
+.exc {
+  background-color: rgba(196, 57, 172, 0.7) !important;
+}
+
+/* .card {
+  border: none;
+} */
+
+.cons {
+  background-color: rgba(157, 57, 196, 0.7) !important;
+}
+
+.teamFun {
+  background-color: rgba(23, 162, 184, 0.7) !important;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}

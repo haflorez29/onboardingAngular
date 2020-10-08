@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NextButtonComponent } from './next-button.component';
+import { FciComponent } from './fci.component';
 
-describe('NextButtonComponent', () => {
-  let component: NextButtonComponent;
-  let fixture: ComponentFixture<NextButtonComponent>;
+describe('FciComponent', () => {
+  let component: FciComponent;
+  let fixture: ComponentFixture<FciComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NextButtonComponent ]
+      declarations: [ FciComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NextButtonComponent);
+    fixture = TestBed.createComponent(FciComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

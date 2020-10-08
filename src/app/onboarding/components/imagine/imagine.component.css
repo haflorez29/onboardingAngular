@@ -6,11 +6,11 @@
 }
 
 a {
-  color: yellow;
+  color: #d0f309;
 }
 
 a:hover {
-  color: #ffc107;
+  color: #bfd732;
   text-decoration: none;
   cursor: pointer;
 }

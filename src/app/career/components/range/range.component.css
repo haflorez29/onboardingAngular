@@ -20,5 +20,21 @@ body {
 }
 
 .expmgm {
-  background: linear-gradient(to right, rgb(108, 14, 151), rgb(216, 32, 103));
+  background: linear-gradient(
+    to right,
+    rgba(108, 14, 151, 0.7),
+    rgba(216, 32, 103, 0.7)
+  );
+}
+
+#headingOne {
+  background: rgba(255, 193, 7, 0.7);
+}
+
+#headingThree {
+  background: rgba(23, 162, 184, 0.7);
+}
+
+#headingFour {
+  background: rgba(40, 167, 69, 0.7);
 }

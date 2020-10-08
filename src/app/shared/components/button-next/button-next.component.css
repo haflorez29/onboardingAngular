@@ -1,9 +1,7 @@
 button {
   background-color: #bfd732;
-  border: 2px solid #bfd732;
 }
 
 button:hover {
   background-color: #8cc637;
-  border: 2px solid #8cc637;
 }

@@ -3,10 +3,22 @@
 }
 
 img {
-  width: 500px;
-  height: 348px;
+  width: 450px;
+  height: 300px;
 }
 
 .triforce {
   height: 200%;
+}
+
+.title {
+  color: #bfd732;
+}
+
+hr {
+  background-color: #bfd732;
+}
+
+.img-container {
+  margin-bottom: 30px;
 }

@@ -9,6 +9,8 @@ import { TriforceTableComponent } from './components/triforce-table/triforce-tab
 import { FciComponent } from './components/fci/fci.component';
 import { FciCategoryComponent } from './components/fci-category/fci-category.component';
 import { SharedModule } from '../shared/shared.module';
+import { KeyPeopleComponent } from './components/key-people/key-people.component';
+import { KeyPersonComponent } from './components/key-person/key-person.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { SharedModule } from '../shared/shared.module';
     TriforceTableComponent,
     FciComponent,
     FciCategoryComponent,
+    KeyPeopleComponent,
+    KeyPersonComponent,
   ],
   imports: [CommonModule, FormsModule, SharedModule],
   exports: [WelcomeComponent, WelcomeFormComponent, ImagineComponent],

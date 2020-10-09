@@ -5,3 +5,17 @@
 .hr {
   background-color: #bfd732;
 }
+
+.containerbg {
+  background-color: #343a40;
+  height: 100vh;
+  /* height: 100; */
+  /* height: 100em; */
+}
+
+@media screen and (max-width: 1000px) {
+  .containerbg {
+    background-color: #343a40;
+    height: 100%;
+  }
+}

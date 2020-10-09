@@ -1,0 +1,12 @@
+<a
+  [href]="sanitize()"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="d-flex justify-content-center"
+>
+  <img src="{{ imageUrl }}" alt="{{ name }}" class="img-fluid w-100" />
+</a>
+<h6 class="card-text text-center">{{ name }}</h6>
+<small>@{{ instagram }}</small>
+<h5 class="card-text text-center" [style.color]="color">{{ studio }}</h5>
+<h5 class="card-text text-center" [style.color]="color">{{ position }}</h5>

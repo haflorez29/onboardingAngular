@@ -1,20 +1,15 @@
-.text {
-  color: #bfd732;
-}
-
-.hr {
-  background-color: #bfd732;
-}
-
-.containerbg {
+.studios {
   background-color: black;
   height: 100vh;
   /* height: 100; */
   /* height: 100em; */
 }
+.buttonNext {
+  width: 30%;
+}
 
 @media screen and (max-width: 1000px) {
-  .containerbg {
+  .studios {
     background-color: black;
     height: 100%;
   }

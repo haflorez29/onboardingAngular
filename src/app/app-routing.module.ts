@@ -7,6 +7,7 @@ import { KeyPeopleComponent } from './onboarding/components/key-people/key-peopl
 import { ReadyComponent } from './onboarding/components/ready/ready.component';
 import { TriforceComponent } from './onboarding/components/triforce/triforce.component';
 import { WelcomeComponent } from './onboarding/components/welcome/welcome.component';
+import { ClassesStudiosComponent } from './studios/components/classes-studios/classes-studios.component';
 
 const routes: Routes = [
   { path: '', component: WelcomeComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'fci3', component: FciComponent },
   { path: 'key-people', component: KeyPeopleComponent },
   { path: 'ready', component: ReadyComponent },
+  { path: 'classes-studio', component: ClassesStudiosComponent },
 ];
 
 @NgModule({

@@ -11,6 +11,7 @@ import { FciCategoryComponent } from './components/fci-category/fci-category.com
 import { SharedModule } from '../shared/shared.module';
 import { KeyPeopleComponent } from './components/key-people/key-people.component';
 import { KeyPersonComponent } from './components/key-person/key-person.component';
+import { ReadyComponent } from './components/ready/ready.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { KeyPersonComponent } from './components/key-person/key-person.component
     FciCategoryComponent,
     KeyPeopleComponent,
     KeyPersonComponent,
+    ReadyComponent,
   ],
   imports: [CommonModule, FormsModule, SharedModule],
   exports: [WelcomeComponent, WelcomeFormComponent, ImagineComponent],

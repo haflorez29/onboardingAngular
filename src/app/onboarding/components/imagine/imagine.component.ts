@@ -21,7 +21,7 @@ export class ImagineComponent implements OnInit {
     );
   }
 
-  carrerPath(): void {
-    this.router.navigate(['/path']);
+  navigateTo(): void {
+    this.router.navigate(['/classes-studio']);
   }
 }

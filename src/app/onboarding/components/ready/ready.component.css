@@ -1,0 +1,13 @@
+.readybg {
+  background: url(../../../../assets/globantoffice.jpg) no-repeat center center
+    fixed;
+  background-size: cover;
+}
+
+/* h1 {
+  margin-left: 50px;
+} */
+
+img {
+  margin-top: 15px;
+}
